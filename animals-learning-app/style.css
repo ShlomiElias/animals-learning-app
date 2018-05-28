@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    width: cover;
+    height: cover;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(245, 241, 235, 0.616);
+    display:none;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+}
+
+.background {
+    width: 100%;
+    height: 100%;
+    background-image: url(images/99537-OLIFGW-509.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+.top {
+    width: 100%;
+    height: 100px;   
+}
+
+#smallImg {
+    width: 65px;
+    height: 65px;
+    float: right;
+    margin:0 2%;    
+}
+
+#smallImg img {
+    width: 65px;
+    height: 65px;
+    padding: 2px;
+    border-radius: 50%; 
+    float: right;
+    opacity: 0.7;
+    cursor: pointer;    
+}
+
+#smallImg img:hover {
+    width: 85px;
+    height: 85px;
+    padding: 2px;
+    border-radius: 50%;
+    float: right;
+    opacity: 0.7;
+    cursor: pointer;  
+    border: 2px solid whitesmoke;  
+}
+
+.forMargin {
+    width: 450px;
+    margin: 25px auto;
+/*
+    border: 2px solid green;
+*/
+}
+
+.imgContainer {
+    width: 450px;
+    height: 450px;
+    position: relative;
+/*
+    border: 2px solid red;
+*/
+    border-radius: 50%; 
+}
+
+.imgContainerBg {
+    width: 450px;
+    height: 450px;
+    position: absolute;
+    background-color: #ffffff;
+    opacity: 0.65;
+    z-index: -1;
+    border-radius: 50%;
+/*
+    border: 2px solid blue; 
+*/
+}
+
+.arrowLeft,
+.arrowRight {
+    width: 75px;
+    height: 450px;
+    float: left;
+    cursor: pointer;
+    top: 50%;
+    transform: translateY(-50%);
+    position: relative;
+/*
+    border: 2px solid black;
+*/
+}
+
+#nextImgBt, #prevImgBt {
+    width: 75px;
+    height: 75px;
+    top: 50%;
+    transform: translateY(-50%);
+    position: relative;
+    border-color: #ffffff;
+    border-radius: 100%;
+    background-color: #ffffff;
+    opacity: 0.5;
+    
+}
+
+.arrow {
+    width: 75px;
+    height: 75px;
+/*
+    border: 2px solid white;
+*/
+}
+
+.largeImg {
+    width: 300px;
+    height: 360px;
+    float: left;
+    top: 50%;
+    transform: translateY(-50%);
+    position: relative;
+/*
+    border: 2px solid black; 
+*/
+}
+
+.buttons {
+    width: 450px;
+    margin: auto;
+    height: 40px;
+/*  
+    border: 2px solid white;
+*/
+}
+
+.animalSoundOn, .animalSoundOff {
+    width: 150px;
+    height: 30px;
+    line-height: 20px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 10px;
+    border-color: lightblue;
+    background-color: aliceblue;
+    display: block;
+    float: left;
+    border-sizing: border-box;
+    margin-left: 50px;
+    margin-top: 5px;
+    animation: textColor 5s infinite;
+    
+}
+
+@keyframes textColor {
+    0% {
+        color: yellow;
+    }
+    15% {
+        color: orange;
+    }
+    30% {
+        color: red;
+    }
+    45% {
+        color: green;
+    }
+    60% {
+        color: blue;
+    }
+    75% {
+        color: purple;
+    }
+    90% {
+        color: palevioletred;
+    }
+    100% {
+        color: papayawhip;
+    }
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uncle Moshe's Farm</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="jquery-3.2.1.js"></script>
+    <script src="script.js"></script>
+
+</head>
+
+<body onload="imgInsert()">
+    <div class="wrapper" id="wrapper">
+
+        <div class="background" id="background"></div>
+
+        <div class="top"><div id="navImg"></div></div>
+
+        <div style="clear: both;"></div>
+
+        <div class="forMargin">
+
+            <div class="imgContainerBg" id="imgContainerBg"></div>
+
+            <div class="imgContainer" id="imgContainer">
+
+                <div class="arrowLeft" id="arrowLeft"><button type="button" id="nextImgBt"><img class="arrow" src="images/arrowLeft.png"></button></div>
+
+                <img class="largeImg" id="largeImg" src="images/01.png">
+
+                <div class="arrowRight" id="arrowRight"><button type="button" id="prevImgBt"><img class="arrow" src="images/arrowRight.png"></button></div>
+
+                <div style="clear: both;"></div>
+
+            </div>
+        </div>
+        <div class="buttons">
+
+            <button type="button" class="animalSoundOn">Sound On</button>
+            
+            <button type="button" class="animalSoundOff">Sound Off</button>
+
+        </div>
+    </div>
+</body>
+
+</html>
